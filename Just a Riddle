@@ -1,0 +1,9 @@
+@client.event
+async def on_member_join(ctx, member):
+  channel = client.get_channel("... --- ..-. .-")
+  rules = client.get_channel("Nothing")
+  msg = "Welcome visitor {}\n read the {}".format(member.mention, rules.mention)
+  await ctx.send_message(channel, msg)
+  
+för att fortsätta, dechiffrera: 
+WkCs_OFuE_yWQ_qhhBPzm4-5ofF2Y1J9rvQ-j_MUHdb8Cmw09nxtooi9p4DXOuPBrdSlOaxI0IWreA_hG_tXIX2Fe0x8_fjQ9udYuhLz4aSyjvbxxEIQqYm2Be7y27iT8I4hkbkzKSfa0y0dMM9Ki_J7a7CL0E5FKjf5JsmHAW5nL7qoL8Fkw2jJ1Bsf8U29EuYoKzY70QVwR8OAWSfYzCkZSsozL7cH2vz2ugVIDIIz8ttw7mD0oraOAIpXE-xS8Um2HH6RO1Txxa-sfqOYyPgnsVd4PJtZ6_FZEONNirQDe8uTFgg5su3DQZiXQTeucyN9XWqNe_lwXv57nXPcMCqli9MYmUnicaCA1dl4hsM
